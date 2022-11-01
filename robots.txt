@@ -1,0 +1,5 @@
+##BEGIN DH BIT##
+User-agent: *
+crawl-delay: 10
+
+##END DH BIT##
