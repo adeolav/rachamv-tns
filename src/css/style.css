@@ -267,6 +267,7 @@ html {
     text-transform: uppercase;
     letter-spacing: 0.25rem;
     font-weight: lighter;
+    color: #2f0591
   }
   
   h1,
@@ -727,7 +728,7 @@ html {
   .blogPosts ul {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[3];
+    -ms-grid-columns: (1fr, 3);
         grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 20px;
     grid-row-gap: 20px;
@@ -1212,7 +1213,7 @@ iframe {
       margin-bottom: 20px;
     }
     .blogPosts ul {
-      -ms-grid-columns: (1fr)[2];
+      -ms-grid-columns: (1fr, 2);
           grid-template-columns: repeat(2, 1fr);
     }
     .projectContainer {
@@ -1331,11 +1332,11 @@ iframe {
       font-size: 5rem;
     }
     .projectLinks {
-     -ms-grid-columns: (1fr)[1];
+     -ms-grid-columns: (1fr, 1 );
           grid-template-columns: repeat(1, 1fr);
     }
     .blogPosts ul {
-      -ms-grid-columns: (1fr)[1];
+      -ms-grid-columns: (1fr, 1);
           grid-template-columns: repeat(1, 1fr);
     }
     .projectsPage h1 {
