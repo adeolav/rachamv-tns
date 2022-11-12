@@ -5,6 +5,7 @@ html {
   }
   
   body {
+    background-color: #00ffff;
     margin: 0;
   }
   
@@ -253,6 +254,9 @@ html {
     font-weight: 300;
     color: #2C2C2C;
   }
+  h1, h3{
+    color: #2f0591
+}
   
   h1,
   h3,
@@ -517,7 +521,7 @@ html {
   }
   
   footer {
-    background-color: #656f62;
+    background-color: #31C6D4;
     color: #F3F6F4;
     padding: 40px 0 20px;
   }
